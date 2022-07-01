@@ -1,0 +1,30 @@
+body, 
+html {
+    font-family: "Akshar", sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link { 
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left:  0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom: solid 4px #f2f2f2;
+    color: var(--primary)
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
